@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.header {
+  padding-top: 110px;
+}
+
+div.whoweare {
+  width: 439px;
+}
+
+.title {
+  font-family: "pt serif", serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47.7px;
+}
+
+.subtitle {
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.text {
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1300px;
+  flex-wrap: wrap;
+  margin-top: 96px;
+}
+main {
+  align-items: center;
+}
+.team > div > div > img {
+  width: 238px;
+  height: auto;
+}
+.team > div {
+  margin-right: 96px;
+}
+.name {
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.mid {
+  margin-top: 99px;
+}
+.bill::after {
+  content: "Product owner";
+  font-family: "pt serif", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.9px;
+  transform: rotate(90deg);
+  height: 1px;
+  width: 90px;
+  margin-top: 50px;
+}
+.bill {
+  display: flex;
+}
+.saba::after {
+  content: "Art director";
+  font-family: "pt serif", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.9px;
+  transform: rotate(90deg);
+  height: 1px;
+  width: 90px;
+  margin-top: 50px;
+}
+.saba {
+  display: flex;
+}
+.shae::after {
+  content: "Tech Lead";
+  font-family: "pt serif", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.9px;
+  transform: rotate(90deg);
+  height: 1px;
+  width: 90px;
+  margin-top: 50px;
+}
+.shae {
+  display: flex;
+}
+.skylah::after {
+  content: "UX Designer";
+  font-family: "pt serif", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.9px;
+  transform: rotate(90deg);
+  height: 1px;
+  width: 90px;
+  margin-top: 50px;
+}
+.skylah {
+  display: flex;
+}
+.griff::after {
+  content: "Developer";
+  font-family: "pt serif", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.9px;
+  transform: rotate(90deg);
+  height: 1px;
+  width: 90px;
+  margin-top: 50px;
+}
+.griff {
+  display: flex;
+}
+.stan::after {
+  content: "Developer";
+  font-family: "pt serif", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.9px;
+  transform: rotate(90deg);
+  height: 1px;
+  width: 90px;
+  margin-top: 50px;
+}
+.stan {
+  display: flex;
+}
+.footercontent {
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #a9a9a9;
+}
+span {
+  font-weight: 700;
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+}
+a {
+  color: #a9a9a9;
+}
+a:visited {
+  color: #a9a9a9;
+}
+html, body {
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+  }
+@media screen and (max-width: 1360px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+
+  .whoweare{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+
+  }
+  .titlediv{
+    width: 100%;
+
+  }
+  .title{
+    width: 300px;
+    margin: auto;
+  }
+  .team {
+    padding-top: 100px;
+    justify-content: center;
+  }
+  .mid {
+    margin-top: 0px;
+  }
+
+}
+@media screen and (max-width: 480px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .team>div{
+        margin-right: 0px;
+        padding-top: 10px;
+        padding-left: 40px;
+    }
+    .text{
+        /* break text into two lines */
+        inline-size: 70%;
+        display: inline-block;
+        
+        
+    }
+}   
